@@ -4,7 +4,7 @@ class Student{
     public:
         string name;
         int age;
-        bool gender;
+        bool gender; //0 -> female, 1 -> male
 
     };
 int main(){
