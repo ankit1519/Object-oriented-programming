@@ -1,3 +1,2 @@
-Ankit
-Set age first!!
-0
+Child id is: 15
+Parent id is: 19

@@ -23,13 +23,14 @@ class Student{
         }
         int getAge(){
            
-            if(this->isAgeSet==0) {cout<<"Set age first!!"<<endl;
+            if(this->isAgeSet==0) {
+                cout<<"Set age first!!"<<endl;
             return 0;
         }
             return this->age;
             
         }
-    };
+};
 int main(){
     #ifndef ONLINE_JUDGE
     freopen("input.txt","r",stdin);
