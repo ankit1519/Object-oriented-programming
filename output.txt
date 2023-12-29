@@ -1,3 +1,1 @@
-The integer x value is: 10
-The decimal x value is: 122.111
-The x and y values are: 21, 11
+Ankit raj Srivastava's age is: 21
