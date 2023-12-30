@@ -1,3 +1,5 @@
+//Structure is nothing but same as class in c++. But all the data members are public by default.
+
 #include<bits/stdc++.h>
 using namespace std;
 struct Student{
