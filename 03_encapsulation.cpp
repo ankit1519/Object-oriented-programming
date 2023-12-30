@@ -12,7 +12,7 @@ class Student{
             this->name=name;
         }
         string getName(){
-            if(this->name!="") return this->name;
+            if(name!="") return name;
             cout<<"Set name first!!"<<endl;
         }
         
@@ -37,7 +37,7 @@ int main(){
     freopen("output.txt","w",stdout);
     #endif
     Student raj;
-    raj.setName("Ankit");
+    raj.setName("Anki");
     //raj.setAge(22);
     cout<<raj.getName()<<endl;
     cout<<raj.getAge()<<endl;

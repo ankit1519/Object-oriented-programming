@@ -3,7 +3,9 @@ using namespace std;
 class Obj{
     int l,b;
 public:
+
     int area(){
+        //this is inline function of main
         return getLength()*getBreadth();
     }
     int perimeter(); 
@@ -25,6 +27,7 @@ public:
     }
 };
 int Obj::perimeter(){
+    //this is non-inline function of main
     return 2*(getLength()+getBreadth());
 }
 int main(){
